@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>test work</title>
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style/css/style.css"/>
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active text-uppercase for-scroll" href="#personaInformation" data-scrol="personaInformation">Личная информация</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-uppercase for-scroll" href="#experience" data-scrol="experience">Опыт</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-uppercase for-scroll" href="#aboutMe" data-scrol="aboutMe">О себе</a>
+            </li>
+        </ul>
+    </div>
+</header>
+<section class="content">
+    <div class="container">
+        <h1 class="form-title">Анкета</h1>
+        <form class="">
+            <div class="col-12 form-group d-flex flex-column align-items-center justify-content-center" id="personaInformation">
+                <div class="form-subtitle">
+                    <div class="form-subtitle-img bg-icon1"></div>
+                    <h2>Личная информация</h2>
+                </div>
+                <input type="text" class="form-field" placeholder="ФИО" name="name">
+                <div class="rail-select">
+                    <div class="select-side d-flex align-items-center justify-content-center">
+                        <i class="glyphicon bg-Shape"></i>
+                    </div>
+                    <select class="form-control" id="sel1">
+                        <option>Год рождения</option>
+                        <option>1980</option>
+                        <option>1981</option>
+                        <option>1982</option>
+                        <option>1983</option>
+                        <option>1984</option>
+                        <option>1985</option>
+                        <option>1986</option>
+                        <option>1987</option>
+                        <option>1988</option>
+                        <option>1989</option>
+                        <option>1990</option>
+                        <option>1991</option>
+                        <option>1992</option>
+                        <option>1993</option>
+                        <option>1994</option>
+                        <option>1995</option>
+                        <option>1996</option>
+                        <option>1997</option>
+                        <option>1998</option>
+                        <option>1999</option>
+                        <option>2002</option>
+                    </select>
+                </div>
+                <input type="text" class="form-field" placeholder="Место проживания" name="address">
+                <input type="text" class="form-field" placeholder="Skype" name="Skype">
+                <input type="email" class="form-field" placeholder="E-mail" name="E-mail">
+            </div>
+            <div class="col-12 form-group" id="experience">
+                <div class="form-subtitle">
+                    <div class="form-subtitle-img bg-icon2"></div>
+                    <h2>Расскажите о своем опыте</h2>
+                </div>
+                <div class="col-12 d-inline-block form-cell-wrap">
+                    <div class="form-cell">
+                        <input type="checkbox" id="bem"/>
+                        <label for="bem">БЭМ/OOCSS</label>
+                    </div>
+                    <div class="form-cell">
+                        <input type="checkbox" id="semantic"/>
+                        <label for="semantic">Верстаю семантично</label>
+                    </div>
+                    <div class="form-cell">
+                        <input type="checkbox" id="webpack"/>
+                        <label for="webpack">Webpack</label>
+                    </div>
+                    <div class="form-cell">
+                        <input type="checkbox" id="stylus"/>
+                        <label for="stylus">Stylus/LESS/SASS</label>
+                    </div>
+                    <div class="form-cell">
+                        <input type="checkbox" id="js"/>
+                        <label for="js">ES2015/ES2016</label>
+                    </div>
+                    <div class="form-cell">
+                        <input type="checkbox" id="jQuery"/>
+                        <label for="jQuery">jQuery</label>
+                    </div>
+                    <div class="form-cell">
+                        <input type="checkbox" id="SVG"/>
+                        <label for="SVG">Работаю с SVG</label>
+                    </div>
+                    <div class="form-cell">
+                        <input type="checkbox" id="Gulp"/>
+                        <label for="Gulp">Gulp/GRUNT</label>
+                    </div>
+                    <div class="form-cell">
+                        <input type="checkbox" id="git"/>
+                        <label for="git">Ипользую Git</label>
+                    </div>
+                </div>
+            </div>
+            <div class="textarea-block col-12 form-group d-flex flex-column align-items-center justify-content-center" id="aboutMe">
+                <div class="form-subtitle">
+                    <div class="form-subtitle-img bg-icon3"></div>
+                    <h2>Расскажите о себе</h2>
+                    <p class="subtitle-description">Напишите несколько предложений, чем привлекла наша вакансия и что вы
+                        ожидаете от работы у нас.</p>
+                </div>
+                <textarea class="col-12" placeholder="Понравилась тем, что..."></textarea>
+            </div>
+            <button class="btn-main" type="submit">Готово</button>
+        </form>
+    </div>
+</section>
+
+<script src="./js/lib/jquery.min.js"></script>
+<script src="./js/lib/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

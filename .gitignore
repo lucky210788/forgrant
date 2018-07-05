@@ -1,0 +1,5 @@
+# Created by .ignore support plugin (hsz.mobi)
+/.idea/
+/style/.sass-cache/
+node_modules
+tz

@@ -1,0 +1,70 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+a {
+  transition: 0.3s all ease-out;
+  cursor: pointer;
+}
+a, a:hover {
+  text-decoration: none;
+}
+select, input, textarea {
+  vertical-align:middle;
+}
+textarea {
+  vertical-align:top;
+  resize: none;
+}
+:focus {
+  outline:none;
+}
+input[type=submit] {
+  cursor:pointer;
+}
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,input,textarea {
+  padding: 0;
+  margin: 0;
+  line-height: 1em;
+  outline:none;
+  list-style:none;
+  color: #000
+}
+section, footer{
+  text-align: center;
+}
+button,
+button:active,
+button:focus {
+  outline: none;
+  cursor:pointer;
+}
+p,h1,h2,h3,h4,h5,h6,a,input,textarea,span,label,button{
+  font: 16px 'Roboto Light';
+}
+//.container{
+  //max-width: 770px;
+  //width: 100%;
+  //padding: 0 45px;
+  //margin: 0 auto;
+//}
+
+//.btn,
+//.btn:active,
+//.btn:focus {
+//  outline: none;
+//}
+
+.d-flex{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}

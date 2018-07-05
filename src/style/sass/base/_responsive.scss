@@ -1,0 +1,101 @@
+@media (min-width: 1200px) {
+  .container{
+    max-width: 770px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container{
+    max-width: 770px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .content {
+    padding: 80px 0 50px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .content {
+    padding: 80px 0 50px;
+  }
+  .form-title {
+    margin-bottom: 50px;
+  }
+  .form-cell{
+    width: 49%;
+  }
+}
+
+@media (max-width: 575px) {
+  .header {
+    .nav-link {
+      font-size: 13px;
+      padding: 5px 5px;
+    }
+    .nav-item {
+      padding: 5px 5px;
+    }
+  }
+  .content {
+    padding: 25px 0 50px;
+  }
+  .form-title {
+    margin-bottom: 30px;
+  }
+  .form-subtitle {
+      margin-bottom: 30px;
+    h2 {
+      font-size: 20px;
+    }
+  }
+  .form-group {
+    margin-bottom: 30px;
+    ::-webkit-input-placeholder {
+      font-size: 16px;
+    }
+    ::-moz-placeholder {
+      font-size: 16px;
+    }
+    :-moz-placeholder {
+      font-size: 16px;
+    }
+    :-ms-input-placeholder {
+      font-size: 16px;
+    }
+  }
+  .form-field{
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .rail-select {
+    margin-bottom: 10px;
+    select {
+      font-size: 16px;
+    }
+    select.form-control:not([size]):not([multiple]) {
+      height: 49px;
+    }
+  }
+  .textarea-block {
+    ::-webkit-input-placeholder {
+      font-size: 16px;
+    }
+    ::-moz-placeholder {
+      font-size: 16px;
+    }
+    :-moz-placeholder {
+      font-size: 16px;
+    }
+    :-ms-input-placeholder {
+      font-size: 16px;
+    }
+    textarea{
+      font-size: 16px;
+    }
+  }
+  .form-cell{
+    width: 99%;
+  }
+}
